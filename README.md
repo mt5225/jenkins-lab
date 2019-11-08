@@ -4,10 +4,11 @@
 
 ## Jenkins Init
 
-- checkout the repo
+-  checkout the repo
+-  create a folder named `jenkins_home`
 - `docker-compose build`
 - `docker-compose -d`
-- add a file to /etc/hosts 
+- add a line to /etc/hosts 
 
 ```bash
 127.0.0.1 jenkins.local
